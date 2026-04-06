@@ -619,9 +619,9 @@ export default function LandingPage() {
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-16">
             {[
-              { value: 12, prefix: "$", suffix: "M+", label: "Recovered for freelancers" },
+              { value: 2, prefix: "$", suffix: "M+", label: "Recovered for freelancers" },
               { value: 47, prefix: "", suffix: "%", label: "Faster payments on average" },
-              { value: 10000, prefix: "", suffix: "+", label: "Invoices tracked" },
+              { value: 800, prefix: "", suffix: "+", label: "Invoices tracked" },
             ].map((stat, i) => (
               <FadeIn key={i} delay={i * 0.1}>
                 <div className="gsap-stat text-center p-8 rounded-2xl border border-neutral-800 bg-neutral-900/50">

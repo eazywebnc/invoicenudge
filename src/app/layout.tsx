@@ -54,6 +54,9 @@ export const metadata: Metadata = {
       "Smart automated invoice reminders for freelancers and agencies.",
     images: ["/og-image.png"],
   },
+  alternates: {
+    canonical: "https://invoicenudge.eazyweb.nc",
+  },
   robots: {
     index: true,
     follow: true,

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     template: "%s | InvoiceNudge",
   },
   description:
-    "Stop chasing payments. InvoiceNudge sends smart, automated invoice reminders so freelancers and agencies get paid 2x faster. Track overdue invoices, send polite escalations, include payment links.",
+    "Stop chasing payments. InvoiceNudge sends smart automated invoice reminders so freelancers and agencies get paid 2x faster. Free to start.",
   keywords: [
     "invoice reminders",
     "automated invoicing",
@@ -60,6 +60,9 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+    "max-video-preview": -1,
+    "max-image-preview": "large" as const,
+    "max-snippet": -1,
   },
 };
 
@@ -108,7 +111,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} dark`}>
+    <html lang="en-US" className={`${inter.variable} dark`}>
       <head>
         <script
           type="application/ld+json"
